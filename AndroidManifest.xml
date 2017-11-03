@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nas.banksampah"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="9" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ss"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginAnggota"
+            android:label="Sign In" >
+        </activity>
+        <activity
+            android:name=".TabunganAnggota"
+            android:label="Setoran" >
+        </activity>
+        <activity
+            android:name=".LoginAdmin"
+            android:label="Sign In" >
+        </activity>
+        <activity
+            android:name=".ListAnggota"
+            android:label="Anggota" >
+        </activity>
+        <activity
+            android:name=".EditAnggota"
+            android:label="Edit Data Anggota" >
+        </activity>
+        <activity
+            android:name=".TampilAnggota"
+            android:label="Anggota" >
+        </activity>
+        <activity
+            android:name=".TambahAnggota"
+            android:label="Anggota Baru" >
+        </activity>
+        <activity
+            android:name=".SetorAnggota"
+            android:label="Penyetoran" >
+        </activity>
+        <activity
+            android:name=".ListSetor"
+            android:label="Setoran" >
+        </activity>
+        <activity
+            android:name=".TampilDataSetor"
+            android:label="Data Setoran" >
+        </activity>
+    </application>
+
+</manifest>

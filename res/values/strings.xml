@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BankSampah</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login_anggota">LoginAnggota</string>
+    <string name="title_activity_tabungan_anggota">TabunganAnggota</string>
+    <string name="title_activity_login_admin">LoginAdmin</string>
+    <string name="title_activity_list_anggota">ListAnggota</string>
+    <string name="title_activity_edit_anggota">EditAnggota</string>
+    <string name="title_activity_tampil_anggota">TampilAnggota</string>
+    <string name="title_activity_tambah_anggota">TambahAnggota</string>
+    <string name="title_activity_setor_anggota">SetorAnggota</string>
+    <string name="title_activity_list_setor">ListSetor</string>
+    <string name="title_activity_tampil_data_setor">TampilDataSetor</string>
+
+</resources>
